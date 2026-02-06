@@ -1,0 +1,52 @@
+Machine learning is using an algorithm or computer program to learn about different patterns in data and then taking that algorithm and what it's learned to make predictions about the future using similar data. machine learning algorithms are also called models.
+--------------
+
+6 Step Machine Learning Framework
+
+1. Problem definition - what problem are we trying to solve.
+2. Data - What kind of data do we have.
+3. Evaluation - What defines success for us.
+4. Features - What do we already know about the data.
+5. Modelling - Based on our problem and data, what model should we use.
+ Data = Training(Train your model on this) + Validation(Tune your model on this) + Test(test and compare on this) 
+6. Experimentation - How could we improve/What can we try next.
+
+-------------------------------
+Machine Learning Algorithm types 
+
+1. Supervised Learning - we have data and label. Ml algorithm tries to use data to predict label.
+
+Classification - Is this example one thing or another
+Binary Classification - Two Options
+Multi-class Classification - More than two options 
+
+2.Regression - How much will this house sell for? OR How many people will buy this app? OR Stock market will go up or down? 
+
+2. Unsupervised Learning - data but with no labels.
+
+Clustering - make group of same type of data.
+
+3. Transfer Learning - What one machine learning model has learnt from another machine learning model.
+
+4. Reinforcement learning - a computer program perform some actions within a defined space and rewarding it for doing well or punishing it for doing poorly.
+
+--------------------------
+
+Types of Data
+1. Static Data - CSV
+2. Streming - 
+
+-------------------------
+
+Data Science Workflow
+Open Static Data(csv file) in Jupyter Notebook -> Analyse using pandas -> Data Analysis using Matplotlib -> Make ML Model using Scikit Learn
+
+----------------------
+
+Overfitting  - 
+When Data leakeage occur between Test data and Training data.
+Ex. If we read the final exam q. paper and give exam then we get full marks.
+
+Underfitting - 
+Data missmatch when the data you are training on such as having different features in the data you are testing on. lead to model performing poorly on test data 
+
